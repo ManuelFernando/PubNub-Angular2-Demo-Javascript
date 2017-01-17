@@ -6,7 +6,7 @@
         <br/>
     </h3>
     <div class="well">
-        <p>Users Online ({{ usersConnected }})</p>
+        <p>Users Online ({{ usersConnected }}) <strong>You: {{userId}}</strong></p>
         <ul>
             <li *ngFor="let o of occupants">
                 {{ o.uuid }}
